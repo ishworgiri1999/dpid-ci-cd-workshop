@@ -24,7 +24,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@main
         with:
-          <Challenge: There's something missing here>
+          name: results
+          path: results.sarif
+
 
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v2
